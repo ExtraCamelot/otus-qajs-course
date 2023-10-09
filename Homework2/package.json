@@ -1,0 +1,19 @@
+{
+  "name": "vkcourse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "testUI": "npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.38.1"
+  },
+  "dependencies": {
+    "@faker-js/faker": "^8.1.0"
+  }
+}
